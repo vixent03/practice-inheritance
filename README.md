@@ -20,6 +20,7 @@ Implement the following in the __classes/student.js__ file.
 1. Create a new `Student` class and have its `constructor` call the `super()`,
    passing the parameters needed for a `Person` and a `constructor` function
    that takes in additional parameters for their `major` subject and `GPA`.
+   Check the specs to determine which parameters you need to inherit.
 2. Create a static method called `compareGPA` which will take in two `Student`
    instances as the first and second parameter and return a string comparing
    the `GPA`s return "`<firstName>` `<lastName>` has the higher GPA." If they're
@@ -39,7 +40,8 @@ Implement the following in the __classes/teacher.js__ file.
 1. Create a new `Teacher` class and have its `constructor` call the `super()`,
    passing parameters needed for a `Person` and a `constructor` function that
    takes in additional parameters for the `subject` they teach and their
-   `yearsOfExperience`.
+   `yearsOfExperience`. Check the specs to determine which parameters you need
+   to inherit.
 2. Create a static method called `combinedYearsOfExperience` that takes in an
    array of `Teacher` instances, `teachers`, as a parameter and returns the sum
    of the `yearsOfExperience` of all `teachers`.
